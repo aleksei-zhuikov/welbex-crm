@@ -1,0 +1,241 @@
+.footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+
+.about-company {
+    display: flex;
+    flex-direction: column;
+
+    /* margin-right: 81px */
+
+}
+
+.about-company__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #656566;
+    margin-bottom: 20px;
+}
+
+.about-company__link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__wrapper-about-menu {
+    display: flex;
+    /* justify-content: space-between; */
+    flex: 1;
+    gap: 83px;
+}
+
+.menu-footer__list {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA;
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* gap: 10px; */
+    text-align: end;
+    /* align-self: flex-end; */
+
+}
+
+.menu-footer__wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-footer {
+    display: flex;
+    gap: 50px;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu-footer_left,
+.menu-footer_right {
+    gap: 11px;
+}
+
+.footer__social-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 18px;
+}
+
+.social-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.tel {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #E4E5EA;
+
+}
+
+
+.address {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA;
+
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #E4E5EA;
+    text-align: end;
+    /* margin-bottom: 20px; */
+    gap: 6px;
+    padding-top: 3px;
+    padding-bottom: 20px;
+}
+
+.copyright a {
+    text-decoration: underline;
+
+}
+
+.hide--mb {
+    display: block;
+}
+
+.show--mb {
+    display: none;
+}
+
+
+@media (max-width: 810.1px) {
+
+    .menu-footer__wrap {
+        margin-bottom: 50px;
+    }
+
+    .footer__contact {
+
+        align-items: flex-start;
+
+    }
+
+    .footer__social-icon {
+        align-items: start;
+
+    }
+}
+
+@media (max-width: 530px) {
+    .footer__wrapper-about-menu {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer__container {
+
+        padding-top: 31px;
+
+    }
+
+    .about-company__title {
+
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .about-company__link {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .menu-footer {
+
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .menu-footer_left,
+    .menu-footer_right {
+        gap: 10px;
+    }
+
+    .menu-footer__wrap {
+        margin-bottom: 12px;
+    }
+
+    .footer__social-icon {
+
+        gap: 10px;
+
+    }
+
+    .social-icon {
+        gap: 15px;
+    }
+
+    .address {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .copyright {
+        font-size: 12px;
+        line-height: 15px;
+        text-align: start;
+        padding-top: 18px;
+    }
+
+    .tel {
+
+        font-size: 16px;
+        line-height: 19px;
+
+    }
+
+    .hide--mb {
+        display: none;
+    }
+
+    .show--mb {
+        display: block;
+    }
+
+
+}

@@ -1,0 +1,13 @@
+@import "./_normalize.css";
+@import "./_globalRes.css";
+@import "./_action.css";
+
+/* components import */
+
+@import './components/_container.css';
+@import './components/_body.css';
+@import './components/_header.css';
+@import './components/_main.css';
+@import './components/_footer.css';
+
+

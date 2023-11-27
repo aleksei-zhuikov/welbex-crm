@@ -1,0 +1,19 @@
+a {
+    transition: color 0.3s
+}
+
+a:hover {
+    color: #FD7D5B;
+    transition: color 0.3s;
+}
+
+button {
+    
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #294da1;
+    transform: scale(105%);
+    transition: background-color 0.5s, transform 1.5s;
+}

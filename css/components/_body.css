@@ -1,0 +1,19 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    min-width: 320px;
+    background: url(../../img/bg.svg) no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 530px) {
+    body {
+       
+        background: #1C121A;
+        
+    }
+   
+
+
+}
